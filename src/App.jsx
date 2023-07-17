@@ -1,35 +1,58 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Navbar from "./componet/Navbar";
+import bannerImg from "./assets/3421663_6966 1.png";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Navbar />
+        <section>
+          <div className="container">
+            <div className="banner">
+              <div>
+                <h1>Protect your health and take care of your health</h1>
+                <div className="service">
+                  <div>
+                    <span></span>
+                    <div>
+                      <h3>Make an appointment</h3>
+                      <p>Schedule with your favorite doctor anythime</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span></span>
+                    <div>
+                      <h6>Health guarantee forever</h6>
+                      <p>We always provide the dest warranty for you</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span></span>
+                    <div>
+                      <h6>Find your dest doctor</h6>
+                      <p>We always provide the dest warranty for you</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span></span>
+                    <div>
+                      <h6>Spread in various place</h6>
+                      <p>Now clinics are available in various places</p>
+                    </div>
+                  </div>
+                </div>
+                <button className="button">Book Now</button>
+              </div>
+              <div className="banner_img">
+                <img src={bannerImg} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
