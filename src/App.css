@@ -1,3 +1,6 @@
+#hero-section{
+background-color: #E6F5FA;
+}
 .banner{
   display: flex;
   justify-content: space-between;
@@ -49,9 +52,21 @@
   color: #A0A6A9;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .service-item img{
   width: 30px;
   height: 30px;
 }
+.logistic{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #fff;
+}
+.logistic-item{
+  text-transform: capitalize;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.logistic-item{}
