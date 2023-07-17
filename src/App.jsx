@@ -14,7 +14,7 @@ function App() {
         <section>
           <div className="container">
             <div className="banner">
-              <div>
+              <div className="banner-left">
                 <h1 className="banner-title">
                   Protect your health and take care of your health
                 </h1>
@@ -68,6 +68,7 @@ function App() {
             </div>
           </div>
         </section>
+        <section id="logistic">
         <div className="logistic">
           <div className="logistic-item">
             <h3>220</h3>
@@ -86,6 +87,7 @@ function App() {
             <p>Patient Capacity</p>
           </div>
         </div>
+        </section>
       </div>
     </>
   );

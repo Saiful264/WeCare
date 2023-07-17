@@ -5,7 +5,9 @@ background-color: #E6F5FA;
   display: flex;
   justify-content: space-between;
 }
-
+.banner-left{
+  padding-bottom: 30px;
+}
 .banner_img{
   text-align: end;
 }
@@ -58,7 +60,13 @@ background-color: #E6F5FA;
   width: 30px;
   height: 30px;
 }
+#logistic{
+  position: relative;
+}
 .logistic{
+  position: absolute;
+  right: 0;
+  top: -66px;
   width: 60%;
   display: flex;
   justify-content: space-around;
@@ -68,5 +76,21 @@ background-color: #E6F5FA;
 .logistic-item{
   text-transform: capitalize;
   font-family: "Roboto Condensed", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.logistic-item{}
+.logistic-item h3{
+  margin: 0;
+  padding-top: 14px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #04A6C2;
+}
+.logistic-item p{
+  margin: 0;
+  padding-bottom: 28px;
+  padding-top: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #A0A6A9;
+}
