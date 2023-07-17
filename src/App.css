@@ -2,13 +2,56 @@
   display: flex;
   justify-content: space-between;
 }
-.service{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 .banner_img{
   text-align: end;
 }
 .banner_img img{
-  width: 70%;
+  width: 80%;
+}
+.banner-title{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2B2D42;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  width: 530px;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.service{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+}
+.service-item{
+  display: flex;
+}
+.service-content{
+  margin-left: 10px;
+}
+.service-tatile{
+  margin: 0;
+  text-transform: capitalize;
+  color: #354051;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.service-datile{
+  padding-top: 10px;
+  margin: 0;
+  text-transform: capitalize;
+  color: #A0A6A9;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.service-item img{
+  width: 30px;
+  height: 30px;
 }
